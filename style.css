@@ -1,5 +1,5 @@
 html{
-    scroll-behavior: ;
+    scroll-behavior: smooth;
 }
 *{
     margin: 0%;
@@ -386,7 +386,12 @@ i{
     font-weight: 600;
     text-shadow: 0 2px 5px rgba(0,0,0,0.4);
 }
-
+.scroll{
+    float: right;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
 .navi li{
     text-align: left;
 }
